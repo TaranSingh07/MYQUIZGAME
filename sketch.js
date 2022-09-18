@@ -10,7 +10,7 @@ function setup(){
   database = firebase.database();
   quiz = new Quiz();
 //call the start() method inside the quiz class
-
+quiz.start()
 }
 
 
